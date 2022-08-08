@@ -23,8 +23,8 @@ function readParams() {
 function getTweets(since_id) {
     return new Promise((resolve, reject) => {
         let params = {
-            from: 'elonmusk',
-            count: 2
+            from: 'OneFootball','sportbible','ufc','TennisTV','Express_F1','FantasyLabsNBA','WhoScored','wojespn','nba'
+            count: 18
         };
         if (since_id) {
             params.since_id = since_id;
